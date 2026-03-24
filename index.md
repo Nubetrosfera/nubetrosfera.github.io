@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Inicio
 permalink: /
 ---
 
@@ -17,8 +16,8 @@ permalink: /
     flex: 1.5;
     min-width: 300px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-size: 42px; /* Tamaño grande impacto */
-    font-weight: 800; /* Extra negrita */
+    font-size: 30px; /* Tamaño grande impacto */
+    font-weight: 700; /* Extra negrita */
     line-height: 1.1;
     letter-spacing: -1.5px;
     color: #111;
@@ -54,9 +53,9 @@ permalink: /
     la meteorología y sobre todo, <br>
     divulgar el conocimiento. <br>
   </div>
-  
+
   <div class="welcome-photo-container">
-    <img src="{{ site.baseurl }}/assets/images/tu-foto.jpg" alt="Dani López" class="welcome-photo">
+    <img src="{{ site.baseurl }}/assets/images/DSCN0282.JPG" alt="Mañana en Xalapa. Autor: DALM" class="welcome-photo">
   </div>
 </div>
 
