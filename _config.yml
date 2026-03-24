@@ -1,7 +1,8 @@
 ---
 title: Nubetrosfera
 description: Divulgación atmosférica - Página de divulgación científica, recursos didácticos y ocio.
-remote_theme: jekyll/minima
+#remote_theme: jekyll/minima
+theme: null
 
 # Plugins necesarios para que GitHub Pages no se confunda
 plugins:
