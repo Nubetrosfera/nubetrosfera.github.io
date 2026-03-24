@@ -1,28 +1,67 @@
-@import "minima"; // Esto mantiene la base del tema
+---
+---
+// 1. Importar la fuente (vamos a usar Inter, que es muy limpia y bold)
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
 
-// Tus ajustes personales
-body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: #2c3e50;
-}
+// 2. Importar la base del tema Minima
+@import "minima";
 
+// 3. Tus estilos personalizados (inspirados en iamrobin)
+
+// Título de la revista (arriba a la izq)
 .site-title {
-  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
   letter-spacing: -1px;
-  color: #1a508b !important; // Un azul más "cielo profundo"
+  color: #1a1a1a !important;
 }
 
+// Botones de navegación (arriba a la der)
 .nav-link {
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-left: 15px;
+  font-family: 'Inter', sans-serif;
+  text-transform: lowercase; // Como en iamrobin
+  font-size: 0.95rem;
+  letter-spacing: 0;
+  color: #1a1a1a !important;
 }
 
-// Para que el texto de la portada se vea más grande y limpio
-.home h1 {
-  font-size: 2.5rem;
-  border-bottom: 2px solid #a2d2ff;
-  display: inline-block;
-  margin-bottom: 20px;
+// --- CLASES PARA LA REJILLA DE BIENVENIDA ---
+
+// El contenedor principal
+.grid-welcome {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr; // El texto ocupa 1.5 partes, la foto 1 parte
+  gap: 3rem; // Espacio entre texto y foto
+  align-items: center; // Centrar verticalmente
+  margin: 4rem 0; // Espaciado arriba y abajo de la sección
+}
+
+// El Texto de Bienvenida Gigante
+.welcome-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 2.8rem; // ¡GIGANTE!
+  font-weight: 900; // ¡MUY GRUESO!
+  line-height: 1.1; // Espaciado entre líneas muy pegado (como iamrobin)
+  letter-spacing: -2px; // Letras pegaditas
+  color: #1a1a1a;
+  
+  // Para móviles, reducimos el tamaño
+  @media (max-width: 800px) {
+    font-size: 2rem;
+  }
+}
+
+// La Caja de la Foto
+.welcome-photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// La Foto con Estilo
+.welcome-photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px; // Bordes muy redondeados modernos
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1); // Sombra suave
 }
