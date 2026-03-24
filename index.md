@@ -4,71 +4,70 @@ permalink: /
 ---
 
 <style>
+  /* --- 1. CABECERA: Logo y Botones en la misma fila --- */
+  .site-header .wrapper {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 20px 0 !important;
+  }
+
+  .site-title {
+    margin-right: auto !important; /* Empuja los botones a la derecha */
+    font-size: 1.1rem !important;
+    font-weight: 800 !important;
+    text-transform: lowercase;
+    letter-spacing: -1px;
+  }
+
+  .site-nav {
+    line-height: 1 !important;
+  }
+
+  .site-nav .nav-link {
+    text-transform: lowercase;
+    font-size: 0.9rem !important;
+    font-weight: 500;
+    margin-left: 20px !important;
+    color: #555 !important;
+  }
+
+  /* --- 2. BIENVENIDA: Proporciones Ajustadas --- */
   .grid-welcome {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 40px;
-    margin: 40px 0 60px 0;
+    gap: 60px;
+    margin: 60px 0;
   }
 
-.welcome-text {
-    flex: 1.5;
+  .welcome-text {
+    flex: 0.8; /* El texto ahora es un poco más pequeño en proporción */
     min-width: 300px;
     font-family: -apple-system, sans-serif;
-    font-size: 30px; 
-    font-weight: 600; 
+    font-size: 40px; 
+    font-weight: 800; 
     line-height: 1.1;
     letter-spacing: -1.5px;
-    color: #111; 
-    /* ESTA ES LA MAGIA: */
-    max-width: 600px; /* Ajusta este número según qué tan ancho quieras el bloque */
+    color: #111;
   }
 
   .welcome-photo-container {
-    flex: 1;
-    min-width: 250px;
+    flex: 1.2; /* LA FOTO GANA: Es más grande que el texto */
+    min-width: 350px;
   }
 
   .welcome-photo {
     width: 100%;
     height: auto;
-    border-radius: 35px; /* Bordes redondeados modernos */
-    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    border-radius: 40px; 
+    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
     display: block;
+    transition: transform 0.3s ease; /* Un toque extra: se mueve al pasar el mouse */
   }
 
-  .seccion-notas {
-    margin-top: 50px;
-    border-top: 1px solid #eee;
-    padding-top: 30px;
-  }
-/* Ajuste del Menú Superior (Navegación) */
-  header.site-header {
-    border: none !important; /* Quita la línea gris de arriba */
-    padding: 30px 0;
-  }
-
-  .site-title {
-    font-weight: 800 !important;
-    letter-spacing: -1px;
-    text-transform: lowercase;
-  }
-
-  .site-nav .nav-link {
-    font-family: -apple-system, sans-serif;
-    text-transform: lowercase; /* Todo en minúsculas como iamrobin */
-    font-size: 14px; /* Más pequeño y elegante */
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    color: #555 !important;
-    margin-left: 25px;
-  }
-
-  /* Cambia el color cuando pasas el mouse */
-  .site-nav .nav-link:hover {
-    color: #000 !important;
-    text-decoration: none;
+  .welcome-photo:hover {
+    transform: scale(1.02);
   }
 </style>
 
