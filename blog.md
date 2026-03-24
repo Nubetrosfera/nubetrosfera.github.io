@@ -1,20 +1,25 @@
 ---
 layout: default
-title: Blog
+title: blog
 permalink: /blog/
 ---
-Blog - articulos de divulgación
+
+<h2 style="font-weight: 800; letter-spacing: -1px; margin-bottom: 30px;">notas y pensamientos ✍️</h2>
 
 <div class="grid-cards">
-  {% for post in site.posts %}
-    <a href="{{ post.url | relative_url }}" class="card">
-      {% if post.image %}
-        <img src="{{ site.baseurl }}/{{ post.image }}" class="card-image" alt="{{ post.title }}">
-      {% else %}
-        <div class="card-image"></div> {% endif %}
-      
-      <span class="card-date">{{ post.date | date: "%d %b %Y" }}</span>
-      <h3 class="card-title">{{ post.title }}</h3>
+  {% for post in site.categories.blog %}
+    <a href="{{ post.url | relative_url }}" class="card-item">
+      <div class="card-img-container">
+        {% if post.image %}
+          <img src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}">
+        {% else %}
+          <div style="width:100%; height:100%; background: #f0f0f0;"></div>
+        {% endif %}
+      </div>
+      <span class="card-meta">{{ post.date | date: "%d %b %Y" }}</span>
+      <h3 class="card-title-text">{{ post.title | downcase }}</h3>
     </a>
+  {% else %}
+    <p style="color: #666; font-style: italic;">el cielo está despejado por ahora... pronto habrá nuevas notas.</p>
   {% endfor %}
 </div>
