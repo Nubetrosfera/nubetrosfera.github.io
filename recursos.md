@@ -7,7 +7,8 @@ permalink: /recursos/
 <h2 style="font-weight: 800; letter-spacing: -1px; margin-bottom: 30px;">biblioteca de recursos 📊</h2>
 
 <div class="grid-cards">
-  {% for post in site.categories.recursos %}
+  {% assign recurso_posts = site.posts | where: "categories", "recursos" %}
+  {% for post in recurso_posts %}
     <a href="{{ post.url | relative_url }}" class="card-item">
       <div class="card-img-container">
         {% if post.image %}
@@ -20,6 +21,6 @@ permalink: /recursos/
       <h3 class="card-title-text">{{ post.title | downcase }}</h3>
     </a>
   {% else %}
-    <p style="color: #666; font-style: italic;">procesando datos... pronto encontrarás scripts y protocolos aquí.</p>
+    <p style="color: #666; font-style: italic;">procesando datos... pronto habrá scripts aquí.</p>
   {% endfor %}
 </div>

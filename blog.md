@@ -7,7 +7,8 @@ permalink: /blog/
 <h2 style="font-weight: 800; letter-spacing: -1px; margin-bottom: 30px;">notas y pensamientos ✍️</h2>
 
 <div class="grid-cards">
-  {% for post in site.categories.blog %}
+  {% assign blog_posts = site.posts | where: "categories", "blog" %}
+  {% for post in blog_posts %}
     <a href="{{ post.url | relative_url }}" class="card-item">
       <div class="card-img-container">
         {% if post.image %}
@@ -20,6 +21,6 @@ permalink: /blog/
       <h3 class="card-title-text">{{ post.title | downcase }}</h3>
     </a>
   {% else %}
-    <p style="color: #666; font-style: italic;">el cielo está despejado por ahora... pronto habrá nuevas notas.</p>
+    <p style="color: #666; font-style: italic;">el cielo está despejado por ahora...</p>
   {% endfor %}
 </div>
