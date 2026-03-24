@@ -19,7 +19,7 @@ permalink: /
 </div>
 
 <div class="seccion-notas">
-  <h2 style="font-weight: 800; letter-spacing: -1px; margin-bottom: 30px;">últimas notas ✍️</h2>
+  <h2 style="font-weight: 800; letter-spacing: -1px; margin-bottom: 30px;">Últimas notas ✍️</h2>
   
   {% for post in site.posts limit:5 %}
     <article style="margin-bottom: 25px; display: flex; align-items: baseline; gap: 20px;">
