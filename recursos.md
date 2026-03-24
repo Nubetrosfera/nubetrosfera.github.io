@@ -1,9 +1,15 @@
 ---
 layout: default
-title: recursos
+title: Recursos
 permalink: /recursos/
 ---
 Aquí irán los scripts de R y bases de datos climáticas.
+
+---
+layout: default
+title: recursos
+permalink: /recursos/
+---
 
 <h2 style="font-weight: 800; letter-spacing: -1px; margin-bottom: 10px;">biblioteca de recursos 📚</h2>
 <p style="color: #666; margin-bottom: 40px; text-transform: lowercase;">herramientas, scripts de r y material de apoyo para ciencias atmosféricas.</p>
