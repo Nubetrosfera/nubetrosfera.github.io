@@ -12,15 +12,17 @@ permalink: /
     margin: 40px 0 60px 0;
   }
 
-  .welcome-text {
+.welcome-text {
     flex: 1.5;
     min-width: 300px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-size: 30px; /* Tamaño grande impacto */
-    font-weight: 700; /* Extra negrita */
+    font-family: -apple-system, sans-serif;
+    font-size: 30px; 
+    font-weight: 600; 
     line-height: 1.1;
     letter-spacing: -1.5px;
-    color: #111;
+    color: #111; 
+    /* ESTA ES LA MAGIA: */
+    max-width: 600px; /* Ajusta este número según qué tan ancho quieras el bloque */
   }
 
   .welcome-photo-container {
@@ -41,17 +43,44 @@ permalink: /
     border-top: 1px solid #eee;
     padding-top: 30px;
   }
+/* Ajuste del Menú Superior (Navegación) */
+  header.site-header {
+    border: none !important; /* Quita la línea gris de arriba */
+    padding: 30px 0;
+  }
+
+  .site-title {
+    font-weight: 800 !important;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+  }
+
+  .site-nav .nav-link {
+    font-family: -apple-system, sans-serif;
+    text-transform: lowercase; /* Todo en minúsculas como iamrobin */
+    font-size: 14px; /* Más pequeño y elegante */
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #555 !important;
+    margin-left: 25px;
+  }
+
+  /* Cambia el color cuando pasas el mouse */
+  .site-nav .nav-link:hover {
+    color: #000 !important;
+    text-decoration: none;
+  }
 </style>
 
 <div class="grid-welcome">
   <div class="welcome-text">
     
-    Bienvenidx a Nubetrosfera ☁️. <br>
-    En este espacio encontrarás notas y <br>
-    recursos de una científica atmosférica <br>
-    a quien le fascina la fotografía, <br>
-    la meteorología y sobre todo, <br>
-    divulgar el conocimiento. <br>
+    Bienvenidx a Nubetrosfera ☁️.
+    En este espacio encontrarás notas y
+    recursos de una científica atmosférica
+    a quien le fascina la fotografía,
+    la meteorología y sobre todo,
+    divulgar el conocimiento.
   </div>
 
   <div class="welcome-photo-container">
