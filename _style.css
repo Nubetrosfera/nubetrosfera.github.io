@@ -1,31 +1,69 @@
-/* Contenedor de botones */
-.nav-buttons {
-    display: flex;
-    gap: 12px;
+/* --- Reinicio básico para limpiar márgenes --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    border: none;
 }
 
-/* El estilo de los botones individuales */
-.nav-btn {
+body {
+    /* Usamos una fuente monoespaciada para un look minimalista */
+    font-family: 'Roboto Mono', monospace;
+    background-color: #f8f9fa; /* Fondo casi blanco */
+    color: #1a1a1a;
+    padding: 0 5%; /* Márgenes laterales para todo el sitio */
+}
+
+/* --- 1. ESTILO DE LA CABECERA --- */
+.main-header {
+    display: flex; /* Alinea los elementos en fila */
+    justify-content: space-between; /* Logo a la izq, Menú a la der */
+    align-items: center; /* Centra verticalmente */
+    padding: 2rem 0; /* Espaciado arriba y abajo */
+}
+
+.logo a {
+    font-weight: 700;
+    font-size: 1.2rem;
     text-decoration: none;
-    color: var(--azul-profundo);
-    background-color: var(--gris-suave);
-    padding: 8px 16px;
-    border-radius: 20px; /* Bordes redondeados tipo 'píldora' */
+    color: #1a1a1a;
+    text-transform: lowercase; /* Como en la referencia */
+}
+
+.main-nav {
+    display: flex; /* Los botones se alinean en fila */
+    gap: 1.5rem; /* Espacio entre cada botón */
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #1a1a1a;
     font-size: 0.9rem;
-    font-weight: 600;
-    transition: all 0.3s ease;
-    border: 1px solid transparent;
+    text-transform: uppercase; /* Como en la referencia */
 }
 
-/* Efecto al pasar el mouse (Hover) */
-.nav-btn:hover {
-    background-color: var(--celeste);
-    color: white;
-    transform: translateY(-2px); /* Pequeño salto hacia arriba */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+/* --- 2. ESTILO DEL CONTENIDO PRINCIPAL --- */
+.main-content {
+    margin-top: 4rem; /* Espacio grande entre el menú y el texto */
 }
 
-/* Suavizar el scroll cuando das clic */
-html {
-    scroll-behavior: smooth;
+.intro-container {
+    display: flex; /* Alinea el título y la descripción en fila */
+    gap: 3rem; /* Espacio entre el título y la descripción */
+    align-items: flex-start; /* Alinea el texto al inicio (arriba) */
+}
+
+.intro-title {
+    flex: 1; /* Ocupa una parte del ancho total */
+}
+
+.intro-title h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.intro-description {
+    flex: 2; /* Ocupa dos partes del ancho total (es más ancho que el título) */
+    font-size: 1rem;
+    line-height: 1.6; /* Espaciado entre líneas de texto */
 }
