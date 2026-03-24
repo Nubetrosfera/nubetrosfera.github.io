@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Bienvenida al sitio"
-Author: "DALM"
+title: "un amanecer entre cúmulus"
 date: 2026-03-24
 categories: blog
 image: assets/images/DSCN0282.JPG
 ---
-
-Aquí redactar
+Hoy en Xalapa la nubosidad presentó una estructura fascinante...
