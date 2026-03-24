@@ -4,56 +4,16 @@ permalink: /
 ---
 
 <style>
-  /* --- 1. CABECERA: Logo y Menú Centrados --- */
-  header.site-header .wrapper {
-    display: flex !important;
-    flex-direction: column !important; /* Logo arriba, menú abajo */
-    align-items: center !important;    /* Centra ambos horizontalmente */
-    gap: 15px !important;              /* Espacio entre logo y botones */
-    padding: 30px 0 !important;
-    border: none !important;           /* Quita la línea gris de arriba */
-  }
-
-  .site-title {
-    font-weight: 800 !important;
-    letter-spacing: -1px;
-    text-transform: lowercase;
-    margin: 0 !important;
-    font-size: 1.2rem !important;
-  }
-
-  .site-nav {
-    display: flex !important;
-    justify-content: center !important; /* Centra los botones */
-    width: 100% !important;
-  }
-
-  .site-nav .nav-link {
-    font-family: -apple-system, sans-serif;
-    text-transform: lowercase;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    color: #555 !important;
-    margin: 0 15px !important; /* Espacio equilibrado a los lados */
-  }
-
-  .site-nav .nav-link:hover {
-    color: #000 !important;
-    text-decoration: none;
-  }
-
-  /* --- 2. BIENVENIDA: Foto más grande que el texto --- */
   .grid-welcome {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 60px; /* Un poco más de aire entre columnas */
+    gap: 40px;
     margin: 40px 0 60px 0;
   }
 
-  .welcome-text {
-    flex: 0.8; /* COLUMNA MÁS ANGOSTA */
+.welcome-text {
+    flex: 1.5;
     min-width: 300px;
     font-family: -apple-system, sans-serif;
     font-size: 25px; 
@@ -61,18 +21,19 @@ permalink: /
     line-height: 1.1;
     letter-spacing: -1.5px;
     color: #111; 
-    max-width: 400px;
+    /* ESTA ES LA MAGIA: */
+    max-width: 400px; /* Ajusta este número según qué tan ancho quieras el bloque */
   }
 
   .welcome-photo-container {
-    flex: 1.2; /* COLUMNA MÁS ANCHA */
+    flex: 1;
     min-width: 300px;
   }
 
   .welcome-photo {
     width: 100%;
     height: auto;
-    border-radius: 35px;
+    border-radius: 35px; /* Bordes redondeados modernos */
     box-shadow: 0 15px 35px rgba(0,0,0,0.1);
     display: block;
   }
@@ -82,17 +43,44 @@ permalink: /
     border-top: 1px solid #eee;
     padding-top: 30px;
   }
+/* Ajuste del Menú Superior (Navegación) */
+  header.site-header {
+    border: none !important; /* Quita la línea gris de arriba */
+    padding: 30px 0;
+  }
+
+  .site-title {
+    font-weight: 800 !important;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+  }
+
+  .site-nav .nav-link {
+    font-family: -apple-system, sans-serif;
+    text-transform: lowercase; /* Todo en minúsculas como iamrobin */
+    font-size: 14px; /* Más pequeño y elegante */
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #555 !important;
+    margin-left: 20px;
+  }
+
+  /* Cambia el color cuando pasas el mouse */
+  .site-nav .nav-link:hover {
+    color: #000 !important;
+    text-decoration: none;
+  }
 </style>
 
 <div class="grid-welcome">
   <div class="welcome-text">
     
-    Bienvenidx a Nubetrosfera ☁️.
+    Bienvenidx a Nubetrosfera.
     En este espacio encontrarás notas y
     recursos de una científica atmosférica
     a quien le fascina la fotografía,
     la meteorología y sobre todo,
-    divulgar el conocimiento.
+    divulgar el conocimiento ☁️.
   </div>
 
   <div class="welcome-photo-container">
