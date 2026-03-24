@@ -1,18 +1,14 @@
 ---
+remote_theme: jekyll/minima
 title: Nubetrosfera
-email: tu-correo@ejemplo.com
-description: >- # Esto aparecerá en Google
-  Revista de divulgación de ciencias atmosféricas, recursos didácticos y ocio.
-baseurl: "" # Déjalo vacío
-url: "https://nubetrosfera.github.io"
-
-# Configuración de los botones/navegación
+description: Página de divulgación científica, recursos didácticos y ocio.
+email: creativadelamora@gmail.com
 header_pages:
   - recursos.md
   - blog.md
   - galeria.md
   - didacticos.md
   - radiocumulus.md
-
-theme: minima # El tema base minimalista
+baseurl: "" # Déjalo vacío
+url: "https://nubetrosfera.github.io"
 ---
