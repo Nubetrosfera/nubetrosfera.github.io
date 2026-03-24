@@ -1,6 +1,9 @@
 ---
 layout: home
+title: Inicio
 ---
 
-# Revista de Divulgación
+# Bienvenido a Nubetrosfera
 Una colección de notas, ideas y pensamientos que cultivo con el tiempo sobre ciencias de la atmósfera.
+
+---

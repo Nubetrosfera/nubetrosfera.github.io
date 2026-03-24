@@ -1,0 +1,28 @@
+@import "minima"; // Esto mantiene la base del tema
+
+// Tus ajustes personales
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #2c3e50;
+}
+
+.site-title {
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: #1a508b !important; // Un azul más "cielo profundo"
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-left: 15px;
+}
+
+// Para que el texto de la portada se vea más grande y limpio
+.home h1 {
+  font-size: 2.5rem;
+  border-bottom: 2px solid #a2d2ff;
+  display: inline-block;
+  margin-bottom: 20px;
+}
