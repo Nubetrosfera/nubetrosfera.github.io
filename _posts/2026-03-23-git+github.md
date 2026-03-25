@@ -17,8 +17,7 @@ Entonces, imagínate en lugar de tener 10 archivos diferentes, cada uno con una 
 
 Además de estas opciones, Git permite tener ramas de un mismo proyecto es decir, la rama `main` (anteriormente conocida como master), es la rama principal y que se crea por defecto; sin embargo, supongamos que queremos hacer una variante totalmente distinta a la idea original, pero queremos conservar ambas versiones. Para ello creamos otra rama y trabajamos de la misma manera que lo hicieramos en la original.
 
-!["Ramas en Git. Fuente: Guerrero, 2021"]({{ site.baseurl }}/assets/images/01_git_branches.jpg)
-[<img src="ruta/imagen.png" alt="Texto alternativo" width="200" height="100">]: #
+![Ramas en Git. Fuente: Guerrero, 2021]({{ site.baseurl }}/assets/images/01_git_branches.jpg)
 
 Así que en la entrada de hoy, te comparto los apuntes que tengo de **cómo podemos crear un repositorio en Git** para después **subirlo a GitHub** y así crear nuestro portafolio científico, compartir con otras personas nuestros proyectos, contribuir a la ciencia o solo llevar un tracker de nuestras actividades de programación.
 
@@ -66,11 +65,11 @@ En caso de que alguna de tus carpetas tenga archivos demasiado grandes, es recom
 
 En este paso, debemos ingresar a [la página oficial de GitHub](https://github.com). Dentro, debemos crear una cuenta iniciando sesión con las opciones que nos da o inttroduciendo manualmente los datos.
 
-![Creación de repo en GitHub. Fuente: Creación propia](../assets/images/01_new_repo_gh.png)
+![Creación de repo en GitHub. Fuente: Creación propia]({{ site.baseurl }}../assets/images/01_new_repo_gh.png)
 
 Después, damos click en el botón verde de la barra lateral izquierda que tiene el texto *New*. Con esto se habilitará un menú del cual debemos llenar únicamente la sección `1) General`, es decir, solo colocamos el nombre del repositorio y la descripción del mismo (algo corto). Presionamos en el botón *"Create repository"*. Podemos seleccionar si lo queremos privado o público, así que elige lo que más te convenga. El resto de opciones lo dejamos como aparece por default.
 
-![Cómo se crea un repositorio nuevo en GutHub. Fuente: Creación propia](../assets/images/01_repo_ops_gh.png)
+![Cómo se crea un repositorio nuevo en GutHub. Fuente: Creación propia]({{ site.baseurl }}../assets/images/01_repo_ops_gh.png)
 
 Ahora debemos subir el repositorio local a la nube y lo haremos ejecutando:
 
@@ -86,7 +85,7 @@ git branch -M main
 ```
 Notarás que estas opciones te las sugerirá GitHub una vez que creas nuevos repositorios.
 
-![Ventana de las opciones que GitHub ofrece para sincronizar un repositorio local. Fuente: Creación propia](../assets/images/01_subir_repo_gh.png)
+![Ventana de las opciones que GitHub ofrece para sincronizar un repositorio local. Fuente: Creación propia]({{ site.baseurl }}../assets/images/01_subir_repo_gh.png)
 
 # ¿Cómo usar las opciones cuándo estemos trabajando de manera normal?
 
