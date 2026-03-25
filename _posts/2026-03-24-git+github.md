@@ -127,11 +127,11 @@ Puedes conocer más leyendo los manuales que Git ofrece de manera gratuita o que
 
 ## Fuentes consultadas
 
-* Fernández, Y. (2019, 30 octubre). Qué es Github y qué es lo que le ofrece a los desarrolladores. Xataka. Recuperado de [](https://www.xataka.com/basics/que-github-que-que-le-ofrece-a-desarrolladores) en 24 de marzo de 2026.
+* Fernández, Y. (2019, 30 octubre). Qué es Github y qué es lo que le ofrece a los desarrolladores. Xataka. Recuperado de https://www.xataka.com/basics/que-github-que-que-le-ofrece-a-desarrolladores en 24 de marzo de 2026.
 
-* Guerrero, S., (2021, 17 mayo). Como trabajar con Ramas en Git y Github. Blog Escola Espai. Recuperado de [](https://www.espai.es/blog/2021/05/como-trabajar-con-ramas-en-git-y-github/) en 24 de marzo de 2026
+* Guerrero, S., (2021, 17 mayo). Como trabajar con Ramas en Git y Github. Blog Escola Espai. Recuperado de https://www.espai.es/blog/2021/05/como-trabajar-con-ramas-en-git-y-github/ en 24 de marzo de 2026
 
-* HolaMundo. (2022, 18 febrero). Aprende GIT ahora! curso completo GRATIS desde cero [Vídeo]. YouTube. [](https://www.youtube.com/watch?v=VdGzPZ31ts8)
+* HolaMundo. (2022, 18 febrero). Aprende GIT ahora! curso completo GRATIS desde cero [Vídeo]. YouTube. https://www.youtube.com/watch?v=VdGzPZ31ts8
 
 
-* Mijacobs. (s. f.). ¿Qué es Git? - Azure DevOps. Microsoft Learn. Recuperado de [](https://learn.microsoft.com/es-es/devops/develop/git/what-is-git) en 24 de marzo de 2026.
+* Mijacobs. (s. f.). ¿Qué es Git? - Azure DevOps. Microsoft Learn. Recuperado de https://learn.microsoft.com/es-es/devops/develop/git/what-is-git en 24 de marzo de 2026.
