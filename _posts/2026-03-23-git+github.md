@@ -17,7 +17,7 @@ Entonces, imagínate en lugar de tener 10 archivos diferentes, cada uno con una 
 
 Además de estas opciones, Git permite tener ramas de un mismo proyecto es decir, la rama `main` (anteriormente conocida como master), es la rama principal y que se crea por defecto; sin embargo, supongamos que queremos hacer una variante totalmente distinta a la idea original, pero queremos conservar ambas versiones. Para ello creamos otra rama y trabajamos de la misma manera que lo hicieramos en la original.
 
-!["Ramas en Git. Fuente: Guerrero, 2021"](../assets/images/01_git_branches.jpg)
+!["Ramas en Git. Fuente: Guerrero, 2021"]({{ site.baseurl }}/assets/images/01_git_branches.jpg)
 [<img src="ruta/imagen.png" alt="Texto alternativo" width="200" height="100">]: #
 
 Así que en la entrada de hoy, te comparto los apuntes que tengo de **cómo podemos crear un repositorio en Git** para después **subirlo a GitHub** y así crear nuestro portafolio científico, compartir con otras personas nuestros proyectos, contribuir a la ciencia o solo llevar un tracker de nuestras actividades de programación.
