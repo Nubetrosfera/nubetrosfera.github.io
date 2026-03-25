@@ -12,14 +12,13 @@ Sé que no soy la única que cuando trabaja proyectos de investigación tiene co
 Esto mismo le pasó a un tal Linus Torvald, sipi, el creador del kernel de *Linux*. Entonces, con tales capacidad de programación pensó: *¿Por qué no hacer un programa que ayude a gestionar las versiones que vamos sacando de cada documento de código?* (bueno, si yo hubiera sido él eso hubiera pensado). El caso es que así es cómo dio vida a su segundo hijo: **Git**. Justamente `Git` es un *sistema de control de versiones distribuido* (además de código libre); que traducido al español significa que es cómo si a la carpeta en la que estamos trabajando, así como a todos los archivos que contienen, les hicieramos un clon exacto, conocido como **repositorio** y en él iremos guardando el historial de modificaciones que vayamos generando.
 
 ![Git y Git Hub. Tomado de https://miro.medium.com/max/2732/1*mtsk3fQ_BRemFidhkel3dA.png](../assets/images/git+github.png)
-<img src="../assets/images/git+github.png" alt="Git y Git Hub. Tomado de https://miro.medium.com/max/2732/1*mtsk3fQ_BRemFidhkel3dA.png" width="200" height="100">
 
 Entonces, imagínate en lugar de tener 10 archivos diferentes, cada uno con una versión distinta del mismo código, solo tendremos un archivo y al lado el historial de los cambios que le hemos hecho. Y luego llega `GitHub`, que es una plataforma web que tiene el propósito de alojar el código que desarrolladores suben a dicha plataforma. Ofrece varias opciones, entre ellas, evidentemente tener una copia en la nube de tus archivos locales, descargar los ficheros y carpetas exactamente como el autor los coloca (es decir, clonas el repositorio lo que garantiza la reproducibilidad); además, puedes entrar a la documentación de los proyectos y leer de qué van.
 
 Además de estas opciones, Git permite tener ramas de un mismo proyecto es decir, la rama `main` (anteriormente conocida como master), es la rama principal y que se crea por defecto; sin embargo, supongamos que queremos hacer una variante totalmente distinta a la idea original, pero queremos conservar ambas versiones. Para ello creamos otra rama y trabajamos de la misma manera que lo hicieramos en la original.
 
 !["Ramas en Git. Fuente: Guerrero, 2021"](../assets/images/01_git_branches.jpg)
-<img src="ruta/imagen.png" alt="Texto alternativo" width="200" height="100">
+[<img src="ruta/imagen.png" alt="Texto alternativo" width="200" height="100">]: #
 
 Así que en la entrada de hoy, te comparto los apuntes que tengo de **cómo podemos crear un repositorio en Git** para después **subirlo a GitHub** y así crear nuestro portafolio científico, compartir con otras personas nuestros proyectos, contribuir a la ciencia o solo llevar un tracker de nuestras actividades de programación.
 
